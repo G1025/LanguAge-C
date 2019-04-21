@@ -1,3 +1,3 @@
 Hello World!
-Haha.
+Haha
 :)
