@@ -1,4 +1,4 @@
-/* This codes was very simple */
+/* This codes was very simple. */
 
 #include <stdio.h>
 #include <stdlib.h> 
@@ -8,7 +8,7 @@
 	void calculator(void);
 int main(void)
 {
-	/* Select. */ int number, code = 1; // Sets.
+	/* Select. */ int code = 1, number; // Sets.
 Menu:
 
 	printf("If you want to Square Root, please enter num-one.\n");
@@ -42,7 +42,7 @@ void squarEroot(void)
 {
 	/* Data. */
 
-	double data, answer; // Sets.
+	double data,answer; // Sets.
 
 	printf("Sqrt = ");
 		scanf("%lf", &data);
@@ -82,6 +82,6 @@ void calculator(void)
 
 	/* Output.*/
 
-	printf("Output = %lf .\n \n", sb);
+	printf("Solution = %lf .\n \n", sb);
 		system("pause>nul");
 }
