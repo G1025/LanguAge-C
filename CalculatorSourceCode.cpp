@@ -1,3 +1,5 @@
+/* This codes was very simple */
+
 #include <stdio.h>
 #include <stdlib.h> 
 #include <math.h> /* Calculator. */
@@ -9,8 +11,8 @@ int main(void)
 	/* Select. */ int number, code = 1; // Sets.
 Menu:
 
-	printf("If you will Square Root, please enter num-one.\n");
-	printf("If you will Calculating the Surface square of a Cylinder, please enter num-two.\n \n");
+	printf("If you want to Square Root, please enter num-one.\n");
+	printf("If you want to Calculating the Surface square of a Cylinder, please enter num-two.\n \n");
 		scanf("%d", &number);
 	printf("\n");
 
